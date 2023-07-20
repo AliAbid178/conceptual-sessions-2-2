@@ -1,3 +1,110 @@
+@media screen and (max-width:768px) {
+  .nav-container{
+    flex-direction: column;
+  }
+  .logo-container {
+    width: auto;
+  }
+
+  .nav-item-container{
+     flex-direction: column;
+     width: 100%;
+  }
+  .nav-item-container a{
+    margin-top: 20px;
+  }
+
+  .nav-item-container .login-btn{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+  /* nav responsive end */
+
+  .banner-container{
+     flex-direction: column;
+    }
+    .banner-text{
+      /* border: 1px solid green; */
+      width: 100%;
+      margin-bottom: 20px;
+      /* text-align: center; */
+      
+  }
+  .banner-img{
+      /* border: 1px solid blue; */
+      width: 100%;
+  }
+  .banner-text h1{
+    font-size: 35px;
+}
+.banner-text p{
+  font-size: 30px;
+}
+.fa-brands {
+  font-size: 30px;
+}
+/* banner section done */
+
+.grid-contain{
+grid-template-columns: repeat(2,1fr)
+}
+  
+}
+
+@media screen and (max-width:567px) {
+  .nav-container{
+    flex-direction: column;
+  }
+
+  .nav-item-container{
+     flex-direction: column;
+     width: 100%;
+  }
+  .nav-item-container a{
+    margin-top: 20px;
+  }
+
+  .nav-item-container .login-btn{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+  /* nav responsive end */
+
+  .banner-container{
+     flex-direction: column;
+    }
+    .banner-text{
+      /* border: 1px solid green; */
+      width: 100%;
+      margin-bottom: 20px;
+      /* text-align: center; */
+      
+  }
+  .banner-img{
+      /* border: 1px solid blue; */
+      width: 100%;
+  }
+  .banner-text h1{
+    font-size: 35px;
+}
+.banner-text p{
+  font-size: 30px;
+}
+.fa-brands {
+  font-size: 30px;
+}
+/* banner section done */
+
+.grid-contain{
+grid-template-columns: 1fr;
+}
+  
+}
+
 @media screen and (max-width:400px) {
     .nav-container{
       flex-direction: column;
@@ -16,5 +123,48 @@
         text-align: center;
         margin-bottom: 10px;
     }
+
+    /* nav responsive end */
+
+    .banner-container{
+       flex-direction: column;
+      }
+      .banner-text{
+        /* border: 1px solid green; */
+        width: 100%;
+        margin-bottom: 20px;
+        /* text-align: center; */
+        
+    }
+    .banner-img{
+        /* border: 1px solid blue; */
+        width: 100%;
+    }
+    .banner-text h1{
+      font-size: 35px;
+  }
+  .banner-text p{
+    font-size: 30px;
+  }
+  .fa-brands {
+    font-size: 30px;
+}
+
+
+.grid-contain{
+  grid-template-columns: 1fr;
+}
+/* banner section done */
+
+
+.discount-container{
+flex-direction: column;
+
+}
+.discount-img,.discount-text {
+  width: 100%;
+
+}
     
 }
+
